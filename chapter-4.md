@@ -52,9 +52,7 @@ CREATE TABLE employees (
 ```sql
 INSERT INTO employees VALUES (1, 'John', 'Doe', 'john.doe@example.com', 50000.00, TO_DATE('2023-01-15', 'YYYY-MM-DD'), 10);
 INSERT INTO employees VALUES (2, 'Jane', 'Smith', 'jane.smith@example.com', 60000.00, TO_DATE('2023-02-10', 'YYYY-MM-DD'), 20);
-INSERT INTO employees VALUES (3, 'Alice', 'Brown', 'alice.brown@example.com', 55000.00, TO_DATE('2023-03- finalità
-
-System: 01', 'YYYY-MM-DD'), 10);
+INSERT INTO employees VALUES (3, 'Alice', 'Brown', 'alice.brown@example.com', 55000.00, TO_DATE('2023-03-01', 'YYYY-MM-DD'), 10);
 COMMIT;
 ```
 
