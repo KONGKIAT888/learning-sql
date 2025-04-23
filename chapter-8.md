@@ -1,4 +1,11 @@
 # บทที่ 8: Subquery และ WITH Clause
+
+## สารบัญ
+
+- [การใช้ Subquery ใน WHERE, SELECT, FROM](#การใช้-subquery-ใน-where-select-from)
+- [IN, EXISTS, NOT EXISTS](#in-exists-not-exists)
+- [การใช้ WITH (Common Table Expression)](#การใช้-with-common-table-expression)
+
 ## การใช้ `Subquery` ใน `WHERE`, `SELECT`, `FROM`
 ใน SQL **Subquery** (หรือ Query ย่อย) คือคำสั่ง `SELECT` ที่ฝังอยู่ในคำสั่ง SQL อื่น เพื่อใช้ผลลัพธ์จาก Subquery ในการประมวลผลต่อ Subquery สามารถใช้ในส่วนต่าง ๆ ของคำสั่ง SQL เช่น **WHERE**, **SELECT**, และ **FROM** เพื่อกรองข้อมูล, คำนวณค่า, หรือสร้างตารางชั่วคราว Subquery มีประโยชน์เมื่อต้องการแยกตรรกะการค้นหาที่ซับซ้อนหรือต้องการผลลัพธ์จากตารางอื่นในการประมวลผล ต่อไปนี้คือคำอธิบายและตัวอย่างการใช้งานในบริบทของ Oracle SQL (และระบบฐานข้อมูลทั่วไป)
 
